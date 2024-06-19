@@ -1,5 +1,5 @@
-# Quiz da Programação
-![Quiz da Programação](./.github/tela1.png) 
+# Portifólio Guilherme Guimarães
+![Tela de Produtos](./.github/telaProjetos.jpg) 
 
 ## Descrição
 Este projeto é o meu portfólio pessoal. O portfólio é projetado para apresentar minhas habilidades, experiências e projetos de maneira clara e atraente. A estrutura do site é organizada em várias seções, cada uma destacando diferentes aspectos sobre mim e sobre meus projetos.
