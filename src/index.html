@@ -16,9 +16,9 @@
 
 <body class="bg-gradient-to-tr from-gray-900 via-blue-950 to-purple-950 text-white font-mono flex">
     <header
-        class=" bg-purple-950 backdrop-blur-3xl bg-opacity-10 flex flex-col justify-around p-8 font-mono fixed top-0 right-0 w-28 h-full">
+        class=" bg-purple-950 backdrop-blur-3xl bg-opacity-10 flex flex-col justify-around md:p-8 font-mono fixed md:top-0 md:right-0 md:w-28 md:h-full bottom-0 w-full z-10 p-4">
         <nav>
-            <ul class="flex flex-col gap-4">
+            <ul class="flex justify-around md:flex-col gap-4">
                 <li><a class="font-bold text-base text-white
                      hover:text-pink-500" href="#">
                         <i class="fa-solid fa-house fa-lg"></i>
@@ -36,23 +36,23 @@
         </nav>
     </header>
     <main class="">
-        <section class="h-screen p-8 flex justify-center gap-20 mr-28 ">
-            <div class=" flex flex-col justify-center w-1/2">
+        <section class="h-screen p-8 flex flex-col md:flex-row justify-center items-center gap-8 md:gap-20 md:mr-28 mb-10 ">
+            <div class=" flex flex-col justify-center md:w-1/2 w-full">
                 <!-- <span class="text-xl">Olá me chamo,</span> -->
-                <h1 class="text-7xl font-bold" data-aos="fade-right">Bem Vindo!</h1>
-                <p class="text-xl" data-aos="fade-right">Olá meu nome é Guilherme Guimarães, sou desenvolvedor de
+                <h1 class="text-2xl md:text-7xl font-bold " data-aos="fade-right">Bem Vindo!</h1>
+                <p class="text-base md:text-xl" data-aos="fade-right">Olá meu nome é Guilherme Guimarães, sou desenvolvedor de
                     software e aqui você vai conhecer um pouco
                     sobre mim e os meus projetos! :) </p>
             </div>
-            <img src="./assets/innovation-animate.svg" class="w-1/2" data-aos="fade-down" alt="">
+            <img src="./assets/innovation-animate.svg" class="md:w-1/2 w-64 " data-aos="fade-down" alt="">
         </section>
-        <section id="sobre" class="h-screen p-8 flex justify-center items-center gap-20 mr-28">
-            <div class="flex items-center ">
-                <img src="./assets/perfil.jpeg" class=" flex h-80 rounded-3xl " data-aos="fade-right" alt="">
+        <section id="sobre" class="h-screen p-8 md:flex justify-center items-center gap-10 md:gap-20 md:mr-28">
+            <div class="flex justify-center items-center md:w-1/3 w-full">
+                <img src="./assets/perfil.jpeg" class=" flex h-32 md:h-80 rounded-3xl text-center p-2" data-aos="fade-right" alt="">
             </div>
-            <div class="w-1/2 flex flex-col justify-center items-center gap-8">
-                <h1 class="text-5xl" data-aos="fade-up">Sobre mim</h1>
-                <p class="text-base  font-sans font-light" data-aos="fade-up">Desenvolvedor de software e instrutor de
+            <div class="md:w-1/2 w-full flex flex-col items-center gap-2 md:gap-8">
+                <h1 class="text-xl md:text-5xl" data-aos="fade-up">Sobre mim</h1>
+                <p class="text-sm md:text-base  font-sans font-light" data-aos="fade-up">Desenvolvedor de software e instrutor de
                     tecnologia.
                     Sou estudante de Sistemas de Informação e atuo como instrutor de tecnologia desde 2022. Durante esse
                     tempo, ministrei aulas de desenvolvimento web e robótica, além de participar de vários projetos
@@ -67,7 +67,7 @@
                     Estou sempre em busca de novos desafios.
                 </p>
                 <div class="flex justify-center items-center gap-2" data-aos="fade-up">
-                    <i title="HTML5" class="fa-brands fa-html5 fa-2xl  hover:text-orange-600"></i>
+                    <i title="HTML5" class="fa-brands fa-html5 fa-2xl hover:text-orange-600"></i>
                     <i title="CSS3" class="fa-brands fa-css3-alt fa-2xl hover:text-blue-500"></i>
                     <i title="JavaScript" class="fa-brands fa-js fa-2xl hover:text-yellow-400"></i>
                     <i title="React" class="fa-brands fa-react fa-2xl hover:text-cyan-300"></i>
@@ -89,11 +89,11 @@
                 </div>
             </div>
         </section>
-        <section id="projetos" class="h-screen p-4 flex flex-col items-center gap-3 mr-28 justify-start">
-            <h1 class="text-3xl" data-aos="fade-up">Meus Projetos</h1>
-            <div id="cards" class="flex gap-4" data-aos="fade-up">
+        <section id="projetos" class="h-auto md:h-screen  p-4 flex flex-col items-center gap-3 md:mr-28 justify-start">
+            <h1 class="md:text-3xl" data-aos="fade-up">Meus Projetos</h1>
+            <div id="cards" class="flex flex-col md:flex-row gap-4" data-aos="fade-up">
                 <div id="card"
-                    class="w-80 flex flex-col p-4 bg-pink-500/40 rounded backdrop-blur-xl gap-2 hover:scale-105 transition-all duration-300">
+                    class="w-80  flex flex-col p-4 bg-pink-500/40 rounded backdrop-blur-xl gap-2 hover:scale-105 transition-all duration-300">
                     <h2 class="text-center text-xl">Quiz da Programação</h2>
                     <img src="./assets/quiz.png" alt="" class="w-full rounded " >
                     <span class="text-sm  text-gray-300">PROJETO PESSOAL</span>
@@ -184,20 +184,20 @@
             </div>
             <a href="https://github.com/guilhermeguimaraesn?tab=repositories" class="p-2 bg-pink-500/40 rounded hover:brightness-110"  target="_blank">VEJA MAIS PROJETOS <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </section>
-        <section id="contato" class="h-screen p-8 flex mr-28 justify-center items-center">
+        <section id="contato" class="h-screen p-8 flex md:flex-row flex-col md:mr-28 justify-center items-center">
             <img src="./assets/online-world-animate.svg" class="w-1/2" data-aos="fade-up" alt="">
-            <div class=" flex flex-col justify-center w-1/2 gap-2">
-                <h1 class="text-6xl font-bold text-center" data-aos="fade-left">Vamos conversar!</h1>
+            <div class=" flex flex-col justify-center md:w-1/2 w-3/4 gap-2">
+                <h1 class="text-3xl md:text-6xl font-bold text-center" data-aos="fade-left">Vamos conversar!</h1>
                 <div class="flex gap-4 items-center justify-center">
-                    <a href="mailto:guilhermeguimaraesnas@gmail.com" class="hover:cursor-pointer hover:text-red-500 font-bold text-lg" data-aos="zoom-in">
+                    <a href="mailto:guilhermeguimaraesnas@gmail.com" class="hover:cursor-pointer hover:text-red-500 font-bold text-sm md:text-lg" data-aos="zoom-in">
                         E-mail 
                         <i class="fa-solid fa-arrow-up-right-from-square" target="_blank"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/guilhermegn/" class="hover:cursor-pointer hover:text-blue-600 font-bold text-lg" target="_blank" data-aos="zoom-in">
+                    <a href="https://www.linkedin.com/in/guilhermegn/" class="hover:cursor-pointer hover:text-blue-600 md:font-bold text-sm md:text-lg" target="_blank" data-aos="zoom-in">
                         LinkedIn 
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
-                    <a href="https://github.com/guilhermeguimaraesn" class="hover:cursor-pointer hover:text-gray-500 font-bold text-lg" target="_blank" data-aos="zoom-in">
+                    <a href="https://github.com/guilhermeguimaraesn" class="hover:cursor-pointer hover:text-gray-500 font-bold text-sm md:text-lg" target="_blank" data-aos="zoom-in">
                         GitHub 
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
